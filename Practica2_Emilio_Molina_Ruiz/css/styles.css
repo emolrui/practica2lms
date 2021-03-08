@@ -1,0 +1,23 @@
+
+*{
+	color: blue;
+}
+
+
+h4{
+	color: red;
+}
+
+/*todos loos documentos que lo cumplan */
+p span {
+	color: green;
+}
+
+
+#segundo_parrafo{
+	color: pink;
+}
+
+.amarillo{
+	color: #55BEFF;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+        <title>Subcripción</title>
+    </head>
+    <body>
+        <div id="contenedor">
+            <div id="cabecera">
+                <h2>Rellena los datos para subcribirte</h2>
+            </div>
+            <div id="cuerpo">
+                
+                <form action="#" method="POST">
+                    <fieldset>
+                        <legend> <strong>1 DATOS DE LA PERSONA SOLICITANTE Y DE LA PERSONA REPRESENTANTE</strong></legend>
+                        <label for="nombre">Apellidos y Nombre o Razon social</label>
+                        <input type="text" name="nombre" id="nombre" size="60" >
+                        <label for="nacimiento">Fecha de nacimiento:</label>
+                        <input type="date" id="nacimiento" name="nacimiento"value="" min="1900-01-01" max="2021-01-31">
+                        <label for="sexo">Sexo: </label>
+                        <input name="select1" type="radio" id="sexo" value="v" id="v">
+                        <label for="v">V</label>           
+                        <input name="select1" type="radio" value="v" id="m">
+                        <label for="m">M</label>
+                        <br/> <br/>
+                        <label for="tipo">Tipo de documento</label>
+                        <input type="text" name="tipo" id="tipo" >
+                        <label for="num">Numero de documento</label>
+                        <input type="number" name="num" id="num" min="10" max="100" >
+                        <label for="nac">Nacionalidad</label>
+                        <input type="text" name="nacionalidad" id="nac" >
+                        <br/><br/>
+                        <label for="dom">Domicilio</label>
+                        <input type="text" name="domicilio" id="dom" size="150" >
+                        <br/><br/> 
+                        <label for="tv">Tipo de Via</label>
+                        <input type="text" name="domicilio" id="tv" size="40" >
+                        <label for="nomvia">Nombre de la via</label>
+                        <input type="text" name="nombre_via" id="nom_via" size="80" >
+                        <label for="numvia">Numero</label>
+                        <input type="text" name="numerovia" id="num_via" size="8" >
+                        <label for="let">Letra</label>
+                        <input type="text" name="letra1" id="let" size="5" >
+                        <label for="esc">Escalera</label>
+                        <input type="text" name="escalera1" id="esc" size="5" >
+                        <br/>
+                        <label for="pis">Piso</label>
+                        <input type="text" name="piso1" id="pis" size="5" >
+                        <label for="pue">Puerta</label>
+                        <input type="text" name="puerta1" id="pue" size="5" >
+                        <br/><br/>
+                        <label for="prov">Provincia</label>
+                        <input type="text" name="prov" id="prov" size="20" >
+                        <label for="loc">Localidad</label>
+                        <input type="text" name="localidad1" id="loc" >
+                        <label for="cp1">Codigo Postal</label>
+                        <input type="text" name="codpost1" id="cp1"  minlength="5" maxlength="5" size="5" >
+                        <br/><br/>
+                        <label for="phone">Telefono fijo</label>
+                        <input type="tel" id="phone" name="fijo" >
+                        <label for="phone2">Telefono movil</label>
+                        <input type="tel" id="phone2" name="movil" >
+                        <label for="mail">Correo electronico</label>
+                        <input type="email" name="e-mail1" id="mail" >
+                        <br/><br/>
+                    </fieldset>
+                    <br/><br/>
+
+                    
+                    <fieldset>
+                        <legend><strong>DOMICILIO A EFECTOS DE NOTIFICACIONES</strong></legend>
+                        <label for="dom2">Domicilio</label>
+                        <input type="text" name="domicilio2" id="dom2" size="150" >
+                        <br/><br/> 
+                        <label for="tip_via">Tipo de Via</label>
+                        <input type="text" name="tip_via" id="tip_via" size="20" >
+                        <label for="nomvia2">Nombre de la via</label>
+                        <input type="text" name="nombre_via2" id="nomvia2" size="80" >
+                        <label for="numvia2">Numero</label>
+                        <input type="text" name="numerovia2" id="numvia2" size="8" >
+                        <label for="let2">Letra</label>
+                        <input type="text" name="letra2" id="let2" size="5" >
+                        <label for="esc2">Escalera</label>
+                        <input type="text" name="escalera2" id="esc2" size="5" >
+                        <span>&nbsp&nbsp&nbsp&nbsp</span>
+                        <label for="pis2">Piso</label>
+                        <input type="text" name="piso2" id="pis2" size="5" >
+                        <span>&nbsp&nbsp&nbsp&nbsp</span>
+                        <label for="pue2">Puerta</label>
+                        <input type="text" name="puerta2" id="pue2" size="5" >
+                        <br/><br/>
+                        <label for="prov2">Provincia</label>
+                        <input type="text" name="prov2" id="prov2" size="20" >
+                        <label for="loc2">Localidad</label>
+                        <input type="text" name="localidad2" id="loc2" >
+                        <label for="cp2">Codigo Postal</label>
+                        <input type="text" name="codpost2" id="cp2"  minlength="5" maxlength="5" size="5" >
+                        <br/><br/>
+                        <label for="phone3">Telefono fijo</label>
+                        <input type="tel3" id="phone3" name="fijo3" >
+                        <label for="phone4">Telefono movil</label>
+                        <input type="tel4" id="phone4" name="movil4"  >
+                        <label for="mail2">Correo electronico</label>
+                        <input type="email2" name="e-mail2" id="mail2" >
+                        <br/><br/>
+                    </fieldset>
+                    <br/><br/><br/><br/>
+                    <fieldset>
+                        <legend><strong>2 CONSENTIMIENTO EXPRESO</strong></legend>
+                        <fieldset>
+                            <legend>CONSENTIMIENTO EXPRESO DNI/NIE/NIF</legend>
+                            <input name="select4" type="radio" value="a1" id="a1">
+                            <label for="a1"> Presto mi <strong>CONSENTIMIENTO</strong> para la consulta de mis datos de identificacion a traves del Sistema de Verificacion de Datos de Identidad</label>           
+                            <br/>        
+                            <input name="select4" type="radio" value="a2" id="a2">
+                            <label for="a2"><strong> NO CONSIENTO</strong> y aporto fotocopia autenticada de mi informe del DNI/NIE/NIF</label>
+                        </fieldset>
+                        <br/>
+                        <fieldset>
+                            <legend>CONSENTIMIENTO EXPRESO SOBRE VIDA LABORAL</legend>
+                            <input name="select5" type="radio" value="a3" id="a3">
+                            <label for="a3"> Presto mi <strong>CONSENTIMIENTO</strong> para la consulta telematica de mi Vida Laboral</label>           
+                            <br/>        
+                            <input name="select5" type="radio" value="a4" id="a4">
+                            <label for="a4"><strong> NO CONSIENTO</strong> y aporto fotocopia autenticada de mi informe de Vida Laboral</label>
+                        </fieldset>
+                        <br/>
+                        <fieldset>
+                            <legend>CONSENTIMIENTO EXPRESO SOBRE ALTA EN LA SEGURIDAD SOCIAL</legend>
+                            <input name="select6" type="radio" value="a5" id="a5">
+                            <label for="a5"> Presto mi <strong>CONSENTIMIENTO</strong> para la consulta telematica del Alta en el Regimen Especial de Trabajadores Autonomos
+                            </br>
+                            <input name="select6" type="radio" value="a6" id="a6">
+                            <label for="a6"><strong> NO CONSIENTO</strong> y aporto fotocopia autenticada de mi Alta en el Regimen Especial de Trabajadores Autonomos</label>
+                        </fieldset>
+                        <br/>
+                        <fieldset>
+                            <legend>CONSENTIMIENTO EXPRESO SOBRE VIDA LABORAL DE EMPRESAS</legend>
+                            <input name="select7" type="radio" value="a7" id="a7">
+                            <label for="a7"> Presto mi <strong>CONSENTIMIENTO</strong> para la consulta telematica del informe de Vida LAboral de Empresas</label>           
+                            <br/>        
+                            <input name="select7" type="radio" value="a8" id="a8">
+                            <label for="a8"><strong> NO CONSIENTO</strong> y aporto fotocopia autenticada de mi informe de Vida Laboral de Emoresas</label>
+                            </fieldset>
+                    </fieldset>
+                    <br/><br/>
+                    <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                    <label for="prov3">En </label>
+                    <input name="prov3" type="text"  id="prov3">
+                    <label for="diames">a dia </label>
+                    <input type="number" name="diad" id="dia" min="01" max="31"  >
+                    <label for="mesa">de </label>
+                    <input type="month" id="mes" name="mes" min="2021-01" >
+                    <input type="submit">
+                    </br></br>
+                    <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                    <input type="reset" name="limpiar" value="Borrar datos del formulario" />
+                </form>
+            
+            </div>
+        </div>
+    </body>
+</html>
